@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoApi.Database;
+using ProjetoApi.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,8 @@ builder.Services.AddDbContext<ClienteDbContext>(
     options => options.UseMySql(connectionMySql,ServerVersion.Parse("8.0.30-mysql"))
 
 );
+
+builder.Services.AddScoped<IClienteRepository,ClienteRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

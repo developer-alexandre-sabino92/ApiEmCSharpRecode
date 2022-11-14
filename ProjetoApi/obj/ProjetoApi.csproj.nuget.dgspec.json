@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ProjetoApi\\ProjetoApi.csproj": {}
+    "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ApiEmCSharp\\ProjetoApi\\ProjetoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ProjetoApi\\ProjetoApi.csproj": {
+    "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ApiEmCSharp\\ProjetoApi\\ProjetoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ProjetoApi\\ProjetoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ApiEmCSharp\\ProjetoApi\\ProjetoApi.csproj",
         "projectName": "ProjetoApi",
-        "projectPath": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ProjetoApi\\ProjetoApi.csproj",
+        "projectPath": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ApiEmCSharp\\ProjetoApi\\ProjetoApi.csproj",
         "packagesPath": "C:\\Users\\Alexandre Sabino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ProjetoApi\\obj\\",
+        "outputPath": "C:\\Users\\Alexandre Sabino\\OneDrive\\Documentos\\Recode\\ApiEmCSharp\\ProjetoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexandre Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -40,19 +40,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
